@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="24.7580" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-04-19T13:43:25" tests="0" file="cypress/integration/specs/ping.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Ping test" timestamp="2022-04-19T13:43:25" tests="1" time="24.7580" failures="0">
+    <testcase name="Ping test Ping web page" time="24.7580" classname="Ping web page">
+    </testcase>
+  </testsuite>
+</testsuites>

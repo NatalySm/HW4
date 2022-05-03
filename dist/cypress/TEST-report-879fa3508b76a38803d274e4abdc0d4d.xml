@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.7290" tests="12" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-04-19T13:39:05" tests="0" file="cypress/integration/2-advanced-examples/cypress_api.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Cypress.Commands" timestamp="2022-04-19T13:39:05" tests="1" time="1.1920" failures="0">
+    <testcase name="Cypress.Commands .add() - create a custom command" time="1.1920" classname=".add() - create a custom command">
+    </testcase>
+  </testsuite>
+  <testsuite name="Cypress.Cookies" timestamp="2022-04-19T13:39:09" tests="3" time="3.0850" failures="0">
+    <testcase name="Cypress.Cookies .debug() - enable or disable debugging" time="0.7250" classname=".debug() - enable or disable debugging">
+    </testcase>
+    <testcase name="Cypress.Cookies .preserveOnce() - preserve cookies by key" time="0.5360" classname=".preserveOnce() - preserve cookies by key">
+    </testcase>
+    <testcase name="Cypress.Cookies .defaults() - set defaults for all cookies" time="1.8240" classname=".defaults() - set defaults for all cookies">
+    </testcase>
+  </testsuite>
+  <testsuite name="Cypress.arch" timestamp="2022-04-19T13:39:12" tests="1" time="3.5100" failures="0">
+    <testcase name="Cypress.arch Get CPU architecture name of underlying OS" time="3.5100" classname="Get CPU architecture name of underlying OS">
+    </testcase>
+  </testsuite>
+  <testsuite name="Cypress.config()" timestamp="2022-04-19T13:39:16" tests="1" time="0.0000" failures="1">
+    <testcase name="Cypress.config() Get and set configuration options" time="0.0000" classname="Get and set configuration options">
+      <failure message="`cy.screenshot()` timed out waiting `30000ms` to complete." type="CypressError"><![CDATA[CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.
+    at https://example.cypress.io/__cypress/runner/cypress_runner.js:160811:81
+    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:13022:23)
+    at https://example.cypress.io/__cypress/runner/cypress_runner.js:8144:41
+    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:13022:23)
+    at Promise._settlePromiseFromHandler (https://example.cypress.io/__cypress/runner/cypress_runner.js:10957:31)
+    at Promise._settlePromise (https://example.cypress.io/__cypress/runner/cypress_runner.js:11014:18)
+    at Promise._settlePromise0 (https://example.cypress.io/__cypress/runner/cypress_runner.js:11059:10)
+    at Promise._settlePromises (https://example.cypress.io/__cypress/runner/cypress_runner.js:11135:18)
+    at _drainQueueStep (https://example.cypress.io/__cypress/runner/cypress_runner.js:7729:12)
+    at _drainQueue (https://example.cypress.io/__cypress/runner/cypress_runner.js:7722:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:7738:5)
+    at Async.drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:7608:14)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Cypress.dom" timestamp="2022-04-19T13:39:46" tests="1" time="0.4680" failures="0">
+    <testcase name="Cypress.dom .isHidden() - determine if a DOM element is hidden" time="0.4680" classname=".isHidden() - determine if a DOM element is hidden">
+    </testcase>
+  </testsuite>
+  <testsuite name="Cypress.env()" timestamp="2022-04-19T13:39:47" tests="1" time="0.3230" failures="0">
+    <testcase name="Cypress.env() Get environment variables" time="0.3230" classname="Get environment variables">
+    </testcase>
+  </testsuite>
+  <testsuite name="Cypress.log" timestamp="2022-04-19T13:39:47" tests="1" time="0.2540" failures="0">
+    <testcase name="Cypress.log Control what is printed to the Command Log" time="0.2540" classname="Control what is printed to the Command Log">
+    </testcase>
+  </testsuite>
+  <testsuite name="Cypress.platform" timestamp="2022-04-19T13:39:47" tests="1" time="0.2340" failures="0">
+    <testcase name="Cypress.platform Get underlying OS name" time="0.2340" classname="Get underlying OS name">
+    </testcase>
+  </testsuite>
+  <testsuite name="Cypress.version" timestamp="2022-04-19T13:39:47" tests="1" time="0.2690" failures="0">
+    <testcase name="Cypress.version Get current version of Cypress being run" time="0.2690" classname="Get current version of Cypress being run">
+    </testcase>
+  </testsuite>
+  <testsuite name="Cypress.spec" timestamp="2022-04-19T13:39:48" tests="1" time="0.3940" failures="0">
+    <testcase name="Cypress.spec Get current spec information" time="0.3940" classname="Get current spec information">
+    </testcase>
+  </testsuite>
+</testsuites>
